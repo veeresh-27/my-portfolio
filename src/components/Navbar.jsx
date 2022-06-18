@@ -14,16 +14,16 @@ const Navbar = () => {
       route: "/",
     },
     {
+      name: "Projects",
+      route: "projects",
+    },
+    {
       name: "About",
       route: "about",
     },
     {
       name: "Services",
       route: "services",
-    },
-    {
-      name: "Projects",
-      route: "projects",
     },
     {
       name: "Contact",
@@ -58,7 +58,7 @@ const Navbar = () => {
                   : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
               }
             >
-              {`<ꪖꪖƙꪖకꫝ కꫝꪖꪹꪑꪖ/>`}
+              {`Veeresh R M`}
             </a>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
