@@ -33,8 +33,7 @@ const Card = ({ img, title, desc, link, source }) => {
           <a
             href={`${source}`}
             target="_blank"
-            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
-          >
+            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300">
             Source Code
             <svg
               class="ml-2 -mr-1 w-4 h-4"
