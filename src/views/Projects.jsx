@@ -37,7 +37,7 @@ const Projects = () => {
             img="https://sandbox-uploads.imgix.net/u/1655577886-589805865d630ce7d4113dd4f42b8b22?w=600"
             title="Shmart"
             desc="A e-commerce website built with react, deployed and hosted on firebase with authentication"
-            link="https://shmart-6ce1f.web.app/"
+            link="https://shmart-369a9.web.app/"
             source="https://github.com/veeresh-27/shmart"
           />
           <Card
