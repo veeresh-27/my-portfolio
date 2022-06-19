@@ -50,9 +50,9 @@ const Projects = () => {
           <Card
             img="https://sandbox-uploads.imgix.net/u/1655578638-0d9110891cff26fdf8fe018592afa58b?w=600"
             title="Portfolio"
-            source=""
+            source="https://github.com/veeresh-27/my-portfolio"
             desc="A portfolio website built with react to show case all my works, deployed and hosted on Netlify"
-            link="https://veer-portfolio.netlify.app/"
+            link="https://veeresh-portfolio.netlify.app/"
           />
           <Card
             img="https://sandbox-uploads.imgix.net/u/1655579069-95cf3aca4cb08ab272537eb6d9f25f44?w=600"

@@ -6,7 +6,7 @@ import Hamburger from "hamburger-react";
 
 const Navbar = () => {
   const theme = useContext(ThemeContext);
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   const darkMode = theme.state.darkMode;
   const links = [
     {
@@ -32,6 +32,7 @@ const Navbar = () => {
   ];
 
   function toggleTheme() {
+    
     if (darkMode === false) {
       theme.dispatch({ type: "LIGHTMODE" });
     } else {
