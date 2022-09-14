@@ -10,9 +10,8 @@ const Card = ({ img, title, desc, link, source }) => {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
       }}
-      class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
-    >
-      <a href={`${link}`} target="_blank">
+      class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8">
+      <a href={`${link}`} target="_blank" rel="noreferrer">
         <img class="rounded-t-lg w-full" src={`${img}`} alt="Project-Img" />
       </a>
       <div class="p-5">
@@ -26,26 +25,29 @@ const Card = ({ img, title, desc, link, source }) => {
           <a
             href={`${link}`}
             target="_blank"
-            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
-          >
+            rel="noreferrer"
+            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300">
             View Project
           </a>
           <a
             href={`${source}`}
-            target="_blank"
-            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300">
+            target={source && `_blank`}
+            rel="noreferrer"
+            class={`inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white ${
+              source
+                ? "bg-blue-500 hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+                : "bg-gray-300 cursor-not-allowed"
+            }  rounded-lg `}>
             Source Code
             <svg
               class="ml-2 -mr-1 w-4 h-4"
               fill="currentColor"
               viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+              xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
                 d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
+                clip-rule="evenodd"></path>
             </svg>
           </a>
         </div>
