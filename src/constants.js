@@ -1,9 +1,9 @@
 export const techStack = [
   { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" },
   { name: "Next", link: "https://cdn.cdnlogo.com/logos/n/80/next-js.svg" },
-  { name: "C Language", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" },
-  { name: "Java", link: "https://cdn.cdnlogo.com/logos/j/2/java.svg" },
-  { name: "MySQl", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" },
+  //{ name: "C Language", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" },
+  //{ name: "Java", link: "https://cdn.cdnlogo.com/logos/j/2/java.svg" },
+ // { name: "MySQl", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" },
   { name: "Figma", link: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" },
   { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" },
@@ -20,9 +20,9 @@ export const techStack = [
 ]
 
 export const contactLinks = [
-{ name: 'Instagram', url: 'https://img.icons8.com/doodle/40/000000/instagram-new--v2.png', link: 'https://www.instagram.com/_veeresh_27/' },
-{ name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/veeresh-27' },
-{ name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/veeresh-r-m'}
+{ name: 'Instagram', url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png', link: 'https://www.instagram.com/_veeresh_27/' },
+{ name: 'Github', url: 'https://cdn-icons-png.flaticon.com/512/25/25231.png', link :'https://github.com/veeresh-27' },
+{ name: 'LinkedIn', url: 'https://pngimg.com/uploads/linkedIn/linkedIn_PNG26.png', link: 'https://www.linkedin.com/in/veeresh-r-m'}
 ]
 
 
