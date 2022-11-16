@@ -28,7 +28,7 @@ const Home = () => {
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
-                  steps={["Front End Developer", 1000, "Full Stack Developer", 1000]}
+                  steps={["Front End Developer", "Full Stack Developer", "Freelancer   "]}
                   loop={Infinity}
                 />
               </span>
@@ -39,14 +39,19 @@ const Home = () => {
                   ? "mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }>
-              I'm 3rd year B.Tech student, Front-End / Full-Stack Developer. Currently working at
-              DigiLinkLabs as a Web Developer intern. Looking for opportunities to grow and learn.
+              I'm 4th year B.Tech student, Front-End / Full-Stack Developer. Currently working at
+              Omikron Technologies as a Web Developer intern. Looking for opportunities to grow and
+              learn.
             </p>
             <div className="flex md:justify-start gap-2 ">
               {contactLinks.map((el) => (
                 <div className="w-10">
-                  <a href={el.link} target='_blank' rel="noreferrer" className="mr-5 cursor-pointer  mt-8 hover:scale-125">
-                    <img alt="" src={el.url} className='flex w-full'/>
+                  <a
+                    href={el.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mr-5 cursor-pointer  mt-8 hover:scale-125">
+                    <img alt="" src={el.url} className="flex w-full" />
                   </a>
                 </div>
               ))}

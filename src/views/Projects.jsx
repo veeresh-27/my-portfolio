@@ -4,6 +4,12 @@ import { ThemeContext } from "../themeProvider";
 
 const projects = [
   {
+    link: "https://ishwarpatil.com",
+    img: "https://i.postimg.cc/15JrXZ1n/ishwarpatil-website.png",
+    desc: "Freelance Project | Interactive and responsive website | Automated Emailing (sendinblue api) | Tech Stack: TailwindCSS NextJS Vercel",
+    source: "https://github.com/veeresh-27/businessProfile",
+  },
+  {
     link: "https://bingemovies.netlify.app/",
     img: "https://i.postimg.cc/TPYBYpZY/Screenshot-52.png",
     desc: "Interactive and responsive PWA API integration, SEO optimized Tech Stack: React.js, TMDb, MUI, Netlify ",
@@ -69,7 +75,7 @@ const Projects = () => {
   return (
     <div id="projects" className={darkMode ? "bg-white text-black" : "bg-gray-900 text-white"}>
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4  pt-24 pb-12">
-        <h2 className="text-5xl font-bold px-4 md:px-0 text-center">My Projects</h2>
+        <h2 className="text-5xl font-bold px-4 md:px-0 text-center">Projects&nbsp;/&nbsp;Works</h2>
         <h4 className="mt-16 text-3xl font-semibold text-blue-600">What I Built</h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
           {projects.map(({ img, title, desc, link, source }, index) => (
