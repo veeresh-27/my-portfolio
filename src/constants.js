@@ -81,7 +81,7 @@ export const projects = [
   {
     link: "https://ishwarpatil.com",
     img: "https://postimg.cc/9rw7gKMC",
-    desc: "Freelance Project | Interactive and responsive website | Automated Emailing (sendinblue api) | Tech Stack: TailwindCSS NextJS Vercel",
+    desc: "Freelance Project | Interactive and responsive website | Automated Emailing (sendinblue api) | Tech Stack: TailwindCSS, NextJS, Vercel",
     source: "https://github.com/veeresh-27/businessProfile",
   },
   {
