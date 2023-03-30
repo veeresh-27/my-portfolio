@@ -127,20 +127,6 @@ export const projects = [
     desc: "Interactive and responsive Web App Dark mode toggle.React.js, Tailwind CSS, Netlify, Framer Motions",
     link: "https://veeresh-portfolio.netlify.app/",
   },
-  {
-    img: "https://i.postimg.cc/hGq04w6D/Screenshot-50.png",
-    title: "Yoga Studio",
-    source: "https://github.com/veeresh-27/yogo-studio",
-    desc: "A website built with react, deployed and hosted on firebase with functional cta",
-    link: "https://yoga-studio-820c8.web.app/",
-  },
-  {
-    img: "https://i.postimg.cc/pLjZHx0c/Screenshot-51.png",
-    title: "FlyHigh",
-    source: "https://github.com/veeresh-27/LetsGrowMore-task1",
-    desc: "A travel website built to complete the task in LetsGrowMore VIP and is hosted by github pages",
-    link: "https://veeresh-27.github.io/LetsGrowMore-task1/",
-  },
 ];
 
 export const personalInfo = [
