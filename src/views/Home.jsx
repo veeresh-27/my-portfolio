@@ -6,12 +6,22 @@ import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
     <>
+      <Helmet>
+        <title>Veeresh Portfolio</title>
+        <meta name="description" content="Veeresh Portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="keywords"
+          content="Veeresh Portfolio , Veeresh , Veeresh R M , VeereshRM , veereshrm , veeresh r m, developer , web developer , veeresh developer , veereshrm developer , veeresh r m developer , veeresh web developer , veereshrm web developer ,  veeresh r m web developer"
+        />
+      </Helmet>
       <div
         style={
           darkMode
